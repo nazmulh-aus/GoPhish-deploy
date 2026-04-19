@@ -14,13 +14,16 @@ sudo apt install unzip wget ufw
 ## Install Required Utilities
 sudo apt install wget unzip -y
 
-
 ## Enable Firewall
 
 sudo ufw allow OpenSSH
+
 sudo ufw allow 3333/tcp
+
 sudo ufw allow 80/tcp
+
 sudo ufw allow 443/tcp
+
 sudo ufw enable
 
 These are required to download and extract the release package.
@@ -39,14 +42,19 @@ unzip gophish-v0.12.1-linux-64bit.zip
 ## Move into directory:
 
 cd gophish
+
 Make Binary Executable
+
 chmod +x gophish
+
 Start GoPhish Server
+
 sudo ./gophish
 
 ## First launch generates:
 
 config.json
+
 admin credentials
 
 ## Example output:
