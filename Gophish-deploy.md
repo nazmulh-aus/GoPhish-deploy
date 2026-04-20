@@ -3,6 +3,7 @@
 ## Update System
 
 sudo apt update
+
 sudo apt upgrade -y
 
 ---
@@ -11,8 +12,6 @@ sudo apt upgrade -y
 
 sudo apt install unzip wget ufw
 
-## Install Required Utilities
-sudo apt install wget unzip -y
 
 ## Enable Firewall
 
@@ -43,21 +42,13 @@ unzip gophish-v0.12.1-linux-64bit.zip
 
 cd gophish
 
-Make Binary Executable
+## Make Binary Executable
 
 chmod +x gophish
 
-Start GoPhish Server
+## Start GoPhish Server
 
 sudo ./gophish
-
-## First launch generates:
-
-config.json
-
-admin credentials
-
-## Example output:
 
 Starting admin server at https://127.0.0.1:3333
 ## Access Admin Interface
@@ -104,10 +95,11 @@ sudo systemctl start gophish
 ## Check status:
 
 sudo systemctl status gophish
-Allow Firewall Access (If Needed)
+## Allow Firewall Access (If Needed)
 sudo ufw allow 3333/tcp
+
 sudo ufw allow 80/tcp
-Verify Installation
+
 
 ## Check service running:
 
