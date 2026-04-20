@@ -4,19 +4,19 @@ Key indicators include:
 
 Open Rate
 
-Measures visibility.
+1. Measures visibility.
 
-Click Rate
+2. Click Rate
 
-Measures interaction behaviour.
+3. Measures interaction behaviour.
 
 Report Rate
 
-Measures awareness maturity.
+1. Measures awareness maturity.
 
 Completion Rate
 
-Measures training success.
+1. Measures training success.
 
 ---
 
